@@ -1,0 +1,26 @@
+img{
+    width     : 300px;
+    height    : 270px;
+    box-shadow: 8px 8px 18px rgb(230, 230, 230);
+    margin-right : 45px;
+}
+.Cuisine, .Cuicui{
+    font-size  : 50px;
+    text-shadow: 8px 8px 18px rgb(230, 230, 230);
+    text-align : center;
+    color      : rgb(75, 177, 27);
+    font-family: calibri;
+}
+td.cellule{
+    margin-top: 2%;
+    width     : 50px;
+    height    : 50px;
+    border    : solid 1px #332211;
+}
+table{
+    border-collapse: collapse;
+}
+.tete{
+    font-size : 25px;
+    text-shadow: 8px 8px 18px rgb(230, 230, 230);
+}

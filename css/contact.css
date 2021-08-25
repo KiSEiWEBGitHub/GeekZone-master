@@ -1,0 +1,183 @@
+#barr{
+    border :solid 3px #000;
+    background-color: black;
+    margin-top: -0.7%;
+}
+#barr h1{
+    color: green;
+    font-family: "Calibri";
+    text-align: center;
+}
+#menu-demo2, #menu-demo2 ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align:center;
+    }
+    #menu-demo2 li{
+    display:inline-block;
+    position:relative;
+    border-radius:8px 8px 0 0;
+    }
+    #menu-demo2 ul li{
+    display:inherit;
+    border-radius:0;
+    }
+    #menu-demo2 ul li:hover{
+    border-radius:0;
+    }
+    #menu-demo2 ul li:last-child{
+    border-radius:0 0 8px 8px;
+    }
+    #menu-demo2 ul{
+    position:absolute;
+    z-index: 1000;
+    max-height:0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .5s all .3s;
+    transition: .5s all .3s;
+    }
+    #menu-demo2 li:hover ul{
+    max-height:16em;
+    }
+
+    #menu-demo2 li:first-child{
+    background-color: #000;
+    background-image:-webkit-linear-gradient(top,#000 100%);
+    background-image:linear-gradient(to bottom,#000 100%);
+    }
+    #menu-demo2 li:nth-child(2){
+    background-color:#000;
+    background-image: -webkit-linear-gradient(top, #000 0%, #000 100%);
+    background-image:linear-gradient(to bottom,#000F 0%,#000 100%);
+    }
+    #menu-demo2 li:nth-child(3){
+    background-color: #000;
+    background-image:-webkit-linear-gradient(top,#000 0%, #000 100%);
+    background-image:linear-gradient(to bottom, #000 0%, #000 100%);
+    }
+    #menu-demo2 li:last-child{
+    background-color: #000;
+    background-image:-webkit-linear-gradient(top, #000 0%, #0005 100%);
+    background-image:linear-gradient(to bottom, #000 0%, #000 100%);
+    }
+
+    #menu-demo2 li:first-child li{
+    background:#000;
+    }
+    #menu-demo2 li:nth-child(2) li{
+    background:#000;
+    }
+    #menu-demo2 li:nth-child(3) li{
+    background:#000;
+    }
+    #menu-demo2 li:last-child li{
+    background:#000;
+    }
+
+    #menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+    background:#000;
+    }
+    #menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
+    background:#000;
+    }
+    #menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
+    background:#000;
+    }
+    #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+    background:#000;
+    }
+
+    #menu-demo2 a{
+    text-decoration:none;
+    display:block;
+    padding:8px 32px;
+    color:green;
+    font-family:arial;
+    }
+    #menu-demo2 ul a{
+    padding:8px 0;
+    }
+    #menu-demo2 li:hover li a{
+    color:green;
+    text-transform:inherit;
+    }
+    #menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+    color:red;
+    }
+
+#bor{
+    border : solid 3px #000;
+    background-color:#000;
+}
+#titre{
+    margin-top : 15%;
+    text-align: center;
+    font-family: Calibri;
+}
+body{
+    margin :0px;
+    padding : 0px;
+    width: 100%;
+}
+.diaporama1{
+    margin : 0 auto;
+    width: 960px;
+    height: 500px;
+    border : 3px solid #333;
+    background-image: url("image/image1.jgp");
+
+    -webkit-animation-name: diapo1;
+    -webkit-animation-duration: 13s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+}
+@-webkit-keyframes diapo1{
+    0%{background-image: url("image/image1.jpg");}
+    50%{background-image: url("image/image2.jpg");}
+    100%{background-image: url("image/image3.jpg");}
+}
+#bbhdd{
+    border: solid 3px #000;
+    border-style: hidden;
+    background-color: #fff;
+    color: #fff;
+}
+h6{
+  font-family: "Calibri";
+  color: "black";
+  text-align: center;
+  font-size: 25px;
+}
+body{
+    font-size: 21px;
+    font-family: Calibri;
+    color: #333;
+}   
+ 
+img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-right : 40px;
+
+}
+h2{
+  font-size: 15px;
+  font-family: Calibri;
+}
+
+td.cellule {
+ border: 1px solid #332211;
+ width: 50px;
+ height: 50px;
+ margin-top: 20%;
+}
+
+table {
+ border-collapse: collapse;
+}

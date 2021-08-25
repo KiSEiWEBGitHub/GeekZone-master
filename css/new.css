@@ -1,0 +1,22 @@
+.DiapoNew{
+    margin : 0 auto;
+    width: 283px;
+    height: 283px;
+    border : 3px solid #333;
+    background-image: url("./img/img_diapo_new/1.jpg");
+
+    -webkit-animation-name: diapo2;
+    -webkit-animation-duration: 9s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+}
+@-webkit-keyframes diapo2{
+    0%{background-image: url("./img/img_diapo_new/1.jpg");}
+    16%{background-image: url("./img/img_diapo_new/2.jpg");}
+    32%{background-image: url("./img/img_diapo_new/3.jpg");}
+    48%{background-image: url("./img/img_diapo_new/4.jpg");}
+    64%{background-image: url("./img/img_diapo_new/5.jpg");}
+    80%{background-image: url("./img/img_diapo_new/6.jpg");}
+  
+}
